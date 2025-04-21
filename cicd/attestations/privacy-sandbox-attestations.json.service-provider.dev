@@ -1,1 +1,35 @@
-PLACEHOLDER FOR ATTESTATION FILE
+{
+  "privacy_sandbox_api_attestations": [{
+    "attestation_parser_version": 2,
+    "attestation_version": 1,
+    "privacy_policy": ["https://policies.google.com/privacy"],
+    "ownership_token": "aa1ec2f0ee90815659f69e6e08be10599009e70b54954627f5de9fa145c1f92e",
+    "issued_seconds_since_epoch": "1745231350969",
+    "enrollment_id": "BG8PE",
+    "enrollment_site": "https://privacy-sandcastle-dev-services.web.app",
+    "platform_attestations": [{
+      "platform": "chrome",
+      "attestations": {
+        "attribution_reporting_api": {
+          "ServiceNotUsedForIdentifyingUserAcrossSites": true
+        },
+        "protected_audience_api": {
+          "ServiceNotUsedForIdentifyingUserAcrossSites": true
+        },
+        "topics_api": {
+          "ServiceNotUsedForIdentifyingUserAcrossSites": true
+        },
+        "shared_storage_api": {
+          "ServiceNotUsedForIdentifyingUserAcrossSites": true
+        },
+        "private_aggregation_api": {
+          "ServiceNotUsedForIdentifyingUserAcrossSites": true
+        }
+      }
+    }, {
+      "platform": "android",
+      "attestations": {
+      }
+    }]
+  }]
+}
